@@ -24,3 +24,11 @@ Path: `projects/03_risk_decomposition_limits/`
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 pip install -r requirements.txt
+
+## Results (sample)
+
+### Realized return vs VaR (99%)
+![Realized return vs VaR](outputs/var_vs_return.png)
+
+### VaR exceptions (EWMA)
+![VaR exceptions](outputs/exceptions_ewma.png)
