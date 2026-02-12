@@ -18,6 +18,9 @@ Compute daily VaR/ES and validate using standard backtesting (Kupiec, Christoffe
 ```bash
 pip install -r requirements.txt
 
+```md
+Open:
+- `notebooks/01_var_es_backtesting.ipynb`
 
 ## Results (sample)
 
