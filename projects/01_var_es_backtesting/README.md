@@ -15,8 +15,9 @@ Compute daily VaR/ES and validate using standard backtesting (Kupiec, Christoffe
 
 ## How to run
 
-```bash```
+```bash
 pip install -r requirements.txt
+```
 
 ## Results (sample)
 
