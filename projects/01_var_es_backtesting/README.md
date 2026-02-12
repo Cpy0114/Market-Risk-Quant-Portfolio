@@ -1,4 +1,5 @@
 # Project 01 — VaR / ES Engine + Backtesting (Python)
+This project is motivated by my experience in equity proprietary trading and focuses on practical market risk validation: VaR exceptions, coverage tests, and exception clustering.
 
 ## Objective
 Compute daily VaR/ES and validate using standard backtesting (Kupiec, Christoffersen).
