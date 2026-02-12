@@ -25,3 +25,5 @@ pip install -r requirements.txt
 
 ### VaR exceptions (EWMA)
 ![VaR exceptions](outputs/exceptions_ewma.png)
+
+Backtest summary: [`backtest_summary.csv`](outputs/backtest_summary.csv)
