@@ -20,7 +20,10 @@ Path: `projects/03_risk_decomposition_limits/`
 
 ## Quickstart
 
-```bash
+```bash```
 python -m venv .venv
 source .venv/bin/activate   # macOS/Linux
 pip install -r requirements.txt
+
+
+- [Project 01 — VaR/ES + Backtesting](projects/01_var_es_backtesting/)
