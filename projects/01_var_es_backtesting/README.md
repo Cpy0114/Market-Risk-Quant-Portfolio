@@ -17,15 +17,3 @@ Compute daily VaR/ES and validate using standard backtesting (Kupiec, Christoffe
 
 ```bash
 pip install -r requirements.txt
-
-```md
-Open:
-- `notebooks/01_var_es_backtesting.ipynb`
-
-## Results (sample)
-
-### Realized return vs VaR (99%)
-![Realized return vs VaR](outputs/var_vs_return.png)
-
-### VaR exceptions (EWMA)
-![VaR exceptions](outputs/exceptions_ewma.png)
