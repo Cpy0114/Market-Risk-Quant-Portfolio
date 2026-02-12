@@ -14,8 +14,10 @@ Compute daily VaR/ES and validate using standard backtesting (Kupiec, Christoffe
 - Christoffersen independence
 
 ## How to run
+
 ```bash
 pip install -r requirements.txt
+
 
 ## Results (sample)
 
