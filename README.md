@@ -28,3 +28,7 @@ pip install -r requirements.txt
 ```
 
 - [Project 01 — VaR/ES + Backtesting](projects/01_var_es_backtesting/)
+## Portfolio highlights
+- Built a Python VaR/ES engine (Historical, Normal, EWMA) with standard backtesting (Kupiec POF, Christoffersen independence).
+- Produced exception diagnostics, time-series plots, and reproducible outputs (CSV + figures) for review.
+- Documented model limitations and practical takeaways (volatility regimes, exception clustering, tail risk).
