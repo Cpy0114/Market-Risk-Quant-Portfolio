@@ -26,6 +26,8 @@ source .venv/bin/activate  # macOS/Linux
 # .venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 ```
+Then open:
+- `projects/01_var_es_backtesting/notebooks/01_var_es_backtesting.ipynb`
 
 ## Portfolio highlights
 - Built a Python VaR/ES engine (Historical, Normal, EWMA) with standard backtesting (Kupiec POF, Christoffersen independence).
