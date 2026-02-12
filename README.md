@@ -1,21 +1,21 @@
 # Market Risk Quant Portfolio (Python)
 
-This repository contains a small set of end-to-end market risk projects implemented in Python.
-Each project is designed to be reproducible, validated, and easy to review.
+A small set of end-to-end market risk projects implemented in Python.  
+Focus: **VaR / Expected Shortfall (ES)**, **model validation/backtesting**, and **reproducible risk reporting**.
 
 ## Projects
 
-### 1) VaR / ES Engine + Backtesting
-- Methods: Historical VaR/ES, Parametric (Normal) VaR/ES, EWMA volatility VaR/ES
-- Validation: VaR exceptions, Kupiec POF, Christoffersen independence
-- Outputs: VaR/ES time series, exception plot, backtest summary
+### ✅ Project 01 — VaR / ES Engine + Backtesting (complete)
+- **Methods:** Historical VaR/ES, Parametric (Normal) VaR/ES, EWMA volatility VaR/ES  
+- **Validation:** VaR exceptions, Kupiec POF, Christoffersen independence  
+- **Outputs:** VaR/ES time series, exception diagnostics, backtest summary (CSV)
 
-Path: `projects/01_var_es_backtesting/`
+→ **Open:** [projects/01_var_es_backtesting/](projects/01_var_es_backtesting/)
 
-### 2) Stress Testing & Scenario Analysis (planned)
+### Project 02 — Stress Testing & Scenario Analysis (planned)
 Path: `projects/02_stress_scenarios_options/`
 
-### 3) Risk Decomposition & Limit Monitoring (planned)
+### Project 03 — Risk Decomposition & Limit Monitoring (planned)
 Path: `projects/03_risk_decomposition_limits/`
 
 ## Quickstart
@@ -27,7 +27,6 @@ source .venv/bin/activate  # macOS/Linux
 pip install -r requirements.txt
 ```
 
-- [Project 01 — VaR/ES + Backtesting](projects/01_var_es_backtesting/)
 ## Portfolio highlights
 - Built a Python VaR/ES engine (Historical, Normal, EWMA) with standard backtesting (Kupiec POF, Christoffersen independence).
 - Produced exception diagnostics, time-series plots, and reproducible outputs (CSV + figures) for review.
