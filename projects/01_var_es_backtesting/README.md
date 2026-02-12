@@ -27,9 +27,10 @@ pip install -r requirements.txt
 ### VaR exceptions (EWMA)
 ![VaR exceptions](outputs/exceptions_ewma.png)
 
+**Config:** Ticker = SPY, alpha = 1%, rolling window = 250 trading days.
 ## Key takeaways
 - EWMA VaR adapts faster to volatility regime changes than rolling historical/normal VaR.
 - Exception clustering tends to appear during market stress periods, motivating independence testing (Christoffersen).
 - Parametric (Normal) VaR can underestimate tail risk under heavy tails, while ES is more sensitive to tail losses.
 
-Backtest summary: [`backtest_summary.csv`](outputs/backtest_summary.csv)
+Backtest summary: [`outputs/backtest_summary.csv`](outputs/backtest_summary.csv)
